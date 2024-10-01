@@ -1,0 +1,585 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+}
+
+body {
+    background-color: rgb(0, 0, 0);
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+/* CSS for Sidebar */
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+}
+
+.sidebar-content {
+    color: rgb(176, 174, 174);
+    font-weight: 700;
+}
+
+/* CSS for sidebar1 */
+
+.sidebar1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: #131313;
+    width: 102%;
+    margin-top: 8px;
+    margin-left: 9px;
+    height: 160px;
+    border-radius: 10px;
+    margin-bottom: 3px;
+}
+
+/* Logo */
+
+.logo {
+    display: flex;
+    padding-left: 20px;
+    align-items: center;
+}
+
+.logo-name {
+    color: white;
+}
+
+.fa-spotify {
+    font-size: 1.55rem;
+    filter: invert(100%);
+    margin-right: 3px;
+}
+
+/* Home */
+
+.home {
+    display: flex;
+    padding-left: 20px;
+    align-items: center;
+    cursor: pointer;
+}
+
+.fa-house {
+    font-size: 1.35rem;
+    color: rgb(176, 174, 174);
+    margin-right: 20px;
+}
+
+.home1 {
+    cursor: pointer;
+    color: white;
+}
+
+
+/* Search */
+
+.fa-magnifying-glass {
+    font-size: 1.25rem;
+    color: rgb(176, 174, 174);
+    margin-right: 20px;
+    margin-left: 3px;
+    cursor: pointer;
+}
+
+.search {
+    display: flex;
+    padding-left: 20px;
+}
+
+.search1:hover {
+    cursor: pointer;
+    color: white;
+}
+
+/* CSS for sidebar2 */
+
+.sidebar2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #131313;
+    width: 102%;
+    margin-top: 5px;
+    margin-left: 9px;
+    height: 470px;
+    border-radius: 10px;
+}
+
+/* panel */
+
+.panel {
+    display: flex;
+    align-items: center;
+    margin-top: 12px;
+    height: 70px;
+    position: sticky;
+}
+
+
+.sidebar2 .panel .lib-para:hover {
+    cursor: pointer;
+    color: white;
+}
+
+.sidebar2 .panel .fa-plus:hover {
+    cursor: pointer;
+    color: white;
+}
+
+.lib-para {
+    margin-right: 150px;
+}
+
+.fa-list {
+    color: rgb(176, 174, 174);
+    margin-right: 13px;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.fa-plus {
+    color: rgb(176, 174, 174);
+    font-size: 1.25rem;
+}
+
+/* Scroll area */
+
+.scroll-area {
+    overflow-y: scroll;
+    height: 100%;
+}
+
+.scroll-area::-webkit-scrollbar {
+    display: none;
+}
+
+
+/* CSS for card-1 */
+
+.card-1 .btn {
+    height: 35px;
+    border-radius: 50px;
+    width: 115px;
+    color: black;
+    font-weight: 600;
+    margin-bottom: 10px;
+    background-color: white;
+    border: none;
+    text-align: center;
+}
+
+.scroll-area .card-1 .playlist-content button:hover {
+    font-weight: 700;
+    height: 38px;
+    width: 118px;
+    cursor: pointer;
+}
+
+.playlist-content {
+    margin-left: 15px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.card-style2 {
+    color: white;
+    font-size: 0.75rem;
+    margin-bottom: 20px;
+}
+
+.card-style1 {
+    color: white;
+    font-size: 1rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+/* Card */
+
+.card-style {
+    margin-top: 15px;
+    background-color: #252525;
+    height: 140px;
+    width: 310px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+/* CSS for card-2 */
+
+.Podcast-content .card-style1 {
+    color: white;
+    font-size: 1rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.Podcast-content {
+    margin-left: 15px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.card-2 .btn {
+    height: 35px;
+    border-radius: 50px;
+    border: none;
+    background-color: white;
+    width: 130px;
+    color: black;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.scroll-area .card-2 .Podcast-content button:hover {
+    font-weight: 700;
+    height: 38px;
+    width: 133px;
+    cursor: pointer;
+}
+
+/* panelEnd */
+
+.panel-end {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 45%;
+}
+
+.eng {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgb(176, 174, 174);
+    border-radius: 50px;
+    height: 30px;
+    width: 100px;
+    margin-right: 185px;
+}
+
+.fa-globe {
+    font-size: 1rem;
+    color: white;
+    margin-right: 5px;
+}
+
+.eng .btn {
+    color: white;
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+.panel-end .eng:hover {
+    border-color: white;
+    cursor: pointer;
+    height: 32px;
+    width: 102px;
+    font-weight: 800;
+}
+
+.Cookie {
+    text-decoration: none;
+    color: rgb(176, 174, 174);
+    font-size: 0.75rem;
+    margin-right: 240px;
+}
+
+.panel-end .Cookie:hover {
+    text-decoration: underline;
+    text-decoration-color: rgb(176, 174, 174);
+    text-decoration-thickness: 1.5px;
+}
+
+/* CSS for main-container */
+
+.main-container {
+    margin-left: 343px;
+    display: flex;
+    flex-direction: column;
+    height: 638.5px;
+    width: 75.5%;
+    /* background-color: #b4b4b4; */
+    margin-top: 8px;
+    border-radius: 10px;
+}
+
+/* CSS for navbar */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #131313;
+    height: 40px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    padding: 14px 30px;
+}
+
+.spotify-plalist {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* CSS for go back */
+
+.navbar .go-back button {
+    color: #9f9f9f;
+    cursor: not-allowed;
+    width: 34px;
+    height: 34px;
+    border-radius: 100%;
+    font-size: 20px;
+    border: 0px;
+    background-color: #090909;
+    margin-right: 10px;
+}
+
+
+/* CSS for login */
+
+.navbar .login {
+    display: flex;
+    align-items: center;
+}
+
+.navbar .login ul {
+    list-style: none;
+}
+
+.navbar .login ul li a {
+    font-size: 15px;
+    color: rgb(176, 174, 174);
+    text-decoration: none;
+    font-weight: 600;
+    margin-right: 27px;
+    letter-spacing: 1px;
+}
+
+.navbar .login button {
+    width: 100px;
+    color: black;
+    font-size: 0.95rem;
+    font-weight: 700;
+    background-color: white;
+    border: none;
+    height: 45px;
+    border-radius: 25px;
+}
+
+
+/* CSS for navbar hover style */
+
+.navbar .login ul li a:hover {
+    font-size: 16px;
+    color: white;
+}
+
+.navbar .login button:hover {
+    width: 101px;
+    color: black;
+    font-weight: 700;
+    background-color: rgb(240, 240, 240);
+    height: 46.5px;
+    cursor: pointer;
+}
+
+/* CSS for Hero section */
+
+.hero-head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.hero-head ul {
+    list-style: none;
+}
+
+.hero-head .part1 li a {
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.hero-head .part2 li a {
+    color: rgb(176, 174, 174);
+    font-size: 0.85rem;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.hero-head .part1 .hero-para1:hover {
+    text-decoration: underline;
+}
+
+.hero-head .part2 .hero-para2:hover {
+    text-decoration: underline;
+    text-decoration-color: rgb(176, 174, 174);
+    text-decoration-thickness: 1.5px;
+}
+
+/* CSS for list section */
+
+.list {
+    padding: 5px 25px;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(to top, #131313, #252525);
+    height: 600px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    overflow-y: scroll;
+    height: 100%;
+}
+
+/* CSS for play list section */
+
+.play-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 18px;
+    height: 150%;
+    width: 100%;
+}
+
+.list::-webkit-scrollbar {
+    display: none;
+}
+
+
+/* CSS for item section */
+
+.list .play-list .item {
+    min-width: 140px;
+    width: 160px;
+    cursor: pointer;
+    padding: 15px;
+    background-color: #131313;
+    border-radius: 6px;
+    transition: all ease 0.4s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 240px;
+}
+
+.list .play-list .item:hover {
+    background-color: #252525;
+}
+
+.list .play-list .item .play {
+    position: relative;
+}
+
+.list .play-list .item .play .fa-play {
+    position: absolute;
+    top: -60px;
+    right: 10px;
+    padding: 18px;
+    border-radius: 100%;
+    background-color: #1ed760;
+    opacity: 0;
+    transition: all ease 0.4s;
+    font-size: 1.2rem;
+}
+
+.list .play-list .item:hover .play .fa-play {
+    opacity: 1;
+    transform: translateY(-20px);
+}
+
+.list .play-list .item .play h4 {
+    color: white;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.list .play-list .item .play p {
+    color: rgb(176, 174, 174);
+    font-size: 0.85rem;
+}
+
+.list .play-list .img {
+    background-size: cover;
+    width: 100%;
+    border-radius: 6px;
+    margin-bottom: 10px;
+}
+
+
+/* CSS for foot section */
+
+.foot-section {
+    height: 70px;
+    width: 98.6%;
+    background: linear-gradient(to right, #ae2896, #509bf5);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 10px;
+    margin-top: 8px;
+    position: sticky;
+}
+
+.foot-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 20px;
+}
+
+.foot-content .footpara1 {
+    color: white;
+    margin-bottom: 5px;
+    font-size: 0.75rem;
+    font-weight: 400;
+}
+
+.foot-content .footpara2 {
+    color: white;
+    margin-bottom: 5px;
+    font-size: 0.95rem;
+    font-weight: 600;
+}
+
+.foot-btn button {
+    width: 150px;
+    color: black;
+    font-size: 0.95rem;
+    font-weight: 700;
+    background-color: white;
+    border: none;
+    height: 45px;
+    border-radius: 25px;
+    margin-right: 25px;
+}
+
+
+.foot-btn button:hover {
+    width: 153px;
+    color: black;
+    background-color: rgb(240, 240, 240);
+    height: 48px;
+    cursor: pointer;
+}
